@@ -11,6 +11,9 @@
 		45078ADC1E797802004FD007 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45078ADB1E797802004FD007 /* Assets.xcassets */; };
 		45078ADF1E797802004FD007 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45078ADD1E797802004FD007 /* LaunchScreen.storyboard */; };
 		45078B181E797C57004FD007 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45078B171E797C57004FD007 /* ListViewController.swift */; };
+		458B8E2B1E7E885C00BB3163 /* libResourceManagerCombined.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 458B8E2A1E7E885C00BB3163 /* libResourceManagerCombined.a */; };
+		458B8E2C1E7E885C00BB3163 /* libResourceManagerCombined.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 458B8E2A1E7E885C00BB3163 /* libResourceManagerCombined.a */; };
+		458B8E2D1E7E885C00BB3163 /* libResourceManagerCombined.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 458B8E2A1E7E885C00BB3163 /* libResourceManagerCombined.a */; };
 		45997BFE1E7D0187005253CD /* ListVC+Table.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45997BFD1E7D0187005253CD /* ListVC+Table.swift */; };
 		45997C021E7D02A5005253CD /* ListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45997C011E7D02A5005253CD /* ListService.swift */; };
 		45997C081E7D058B005253CD /* PinDisplayItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45997C071E7D058B005253CD /* PinDisplayItem.swift */; };
@@ -38,9 +41,6 @@
 		45AE76FA1E7D911F00598B7F /* ListVC+Table.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45997BFD1E7D0187005253CD /* ListVC+Table.swift */; };
 		45AE76FB1E7D911F00598B7F /* ListVC+Effects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45997C281E7D2A44005253CD /* ListVC+Effects.swift */; };
 		45AE77411E7D9C6600598B7F /* ListModuleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AE77401E7D9C6600598B7F /* ListModuleUITests.swift */; };
-		45C759731E7E6F22000871B5 /* libRMFinal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C759721E7E6F22000871B5 /* libRMFinal.a */; };
-		45C759741E7E6F22000871B5 /* libRMFinal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C759721E7E6F22000871B5 /* libRMFinal.a */; };
-		45C759751E7E6F22000871B5 /* libRMFinal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C759721E7E6F22000871B5 /* libRMFinal.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +70,16 @@
 		45078B171E797C57004FD007 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		45078B3A1E79A933004FD007 /* bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = bridge.h; path = mv/bridge.h; sourceTree = "<group>"; };
 		45078B3C1E79B067004FD007 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		458B8E211E7E885C00BB3163 /* APIService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIService.h; sourceTree = "<group>"; };
+		458B8E221E7E885C00BB3163 /* CacheResourceList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheResourceList.h; sourceTree = "<group>"; };
+		458B8E231E7E885C00BB3163 /* CacheService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheService.h; sourceTree = "<group>"; };
+		458B8E241E7E885C00BB3163 /* Configuration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Configuration.h; sourceTree = "<group>"; };
+		458B8E251E7E885C00BB3163 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		458B8E261E7E885C00BB3163 /* Receiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Receiver.h; sourceTree = "<group>"; };
+		458B8E271E7E885C00BB3163 /* ReceiverDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceiverDictionary.h; sourceTree = "<group>"; };
+		458B8E281E7E885C00BB3163 /* Resource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Resource.h; sourceTree = "<group>"; };
+		458B8E291E7E885C00BB3163 /* ResourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourceManager.h; sourceTree = "<group>"; };
+		458B8E2A1E7E885C00BB3163 /* libResourceManagerCombined.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libResourceManagerCombined.a; sourceTree = "<group>"; };
 		45997BF71E7C2434005253CD /* ListViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewCell.swift; sourceTree = "<group>"; };
 		45997BFD1E7D0187005253CD /* ListVC+Table.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ListVC+Table.swift"; sourceTree = "<group>"; };
 		45997C011E7D02A5005253CD /* ListService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListService.swift; sourceTree = "<group>"; };
@@ -84,19 +94,9 @@
 		45AE76DA1E7D8CE300598B7F /* mvTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mvTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45AE76DC1E7D8CE300598B7F /* mvTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mvTests.swift; sourceTree = "<group>"; };
 		45AE76DE1E7D8CE300598B7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		45AE772A1E7D95EE00598B7F /* APIService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIService.h; sourceTree = "<group>"; };
-		45AE772B1E7D95EE00598B7F /* CacheResourceList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheResourceList.h; sourceTree = "<group>"; };
-		45AE772C1E7D95EE00598B7F /* CacheService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheService.h; sourceTree = "<group>"; };
-		45AE772D1E7D95EE00598B7F /* Configuration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Configuration.h; sourceTree = "<group>"; };
-		45AE772F1E7D95EE00598B7F /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
-		45AE77301E7D95EE00598B7F /* Receiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Receiver.h; sourceTree = "<group>"; };
-		45AE77311E7D95EE00598B7F /* ReceiverDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceiverDictionary.h; sourceTree = "<group>"; };
-		45AE77321E7D95EE00598B7F /* Resource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Resource.h; sourceTree = "<group>"; };
-		45AE77331E7D95EE00598B7F /* ResourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourceManager.h; sourceTree = "<group>"; };
 		45AE773E1E7D9C6600598B7F /* ListModuleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ListModuleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45AE77401E7D9C6600598B7F /* ListModuleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModuleUITests.swift; sourceTree = "<group>"; };
 		45AE77421E7D9C6600598B7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		45C759721E7E6F22000871B5 /* libRMFinal.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libRMFinal.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45C759731E7E6F22000871B5 /* libRMFinal.a in Frameworks */,
+				458B8E2B1E7E885C00BB3163 /* libResourceManagerCombined.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,7 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45C759741E7E6F22000871B5 /* libRMFinal.a in Frameworks */,
+				458B8E2C1E7E885C00BB3163 /* libResourceManagerCombined.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,7 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45C759751E7E6F22000871B5 /* libRMFinal.a in Frameworks */,
+				458B8E2D1E7E885C00BB3163 /* libResourceManagerCombined.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,7 +179,6 @@
 				45997C0B1E7D0674005253CD /* Network Manager */,
 				45078B3B1E79B024004FD007 /* Extensions */,
 				45078B321E798E89004FD007 /* Resource */,
-				45C759721E7E6F22000871B5 /* libRMFinal.a */,
 			);
 			name = Common;
 			sourceTree = "<group>";
@@ -187,7 +186,8 @@
 		45078B321E798E89004FD007 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				45AE77281E7D95EE00598B7F /* include */,
+				458B8E1F1E7E885C00BB3163 /* include */,
+				458B8E2A1E7E885C00BB3163 /* libResourceManagerCombined.a */,
 			);
 			name = Resource;
 			sourceTree = "<group>";
@@ -198,6 +198,30 @@
 				45078B3C1E79B067004FD007 /* Extensions.swift */,
 			);
 			name = Extensions;
+			sourceTree = "<group>";
+		};
+		458B8E1F1E7E885C00BB3163 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				458B8E201E7E885C00BB3163 /* ResourceManager */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		458B8E201E7E885C00BB3163 /* ResourceManager */ = {
+			isa = PBXGroup;
+			children = (
+				458B8E211E7E885C00BB3163 /* APIService.h */,
+				458B8E221E7E885C00BB3163 /* CacheResourceList.h */,
+				458B8E231E7E885C00BB3163 /* CacheService.h */,
+				458B8E241E7E885C00BB3163 /* Configuration.h */,
+				458B8E251E7E885C00BB3163 /* NetworkManager.h */,
+				458B8E261E7E885C00BB3163 /* Receiver.h */,
+				458B8E271E7E885C00BB3163 /* ReceiverDictionary.h */,
+				458B8E281E7E885C00BB3163 /* Resource.h */,
+				458B8E291E7E885C00BB3163 /* ResourceManager.h */,
+			);
+			path = ResourceManager;
 			sourceTree = "<group>";
 		};
 		45997BFB1E7D0150005253CD /* Module-List */ = {
@@ -278,30 +302,6 @@
 				45AE76DE1E7D8CE300598B7F /* Info.plist */,
 			);
 			path = mvTests;
-			sourceTree = "<group>";
-		};
-		45AE77281E7D95EE00598B7F /* include */ = {
-			isa = PBXGroup;
-			children = (
-				45AE77291E7D95EE00598B7F /* ResourceManager */,
-			);
-			path = include;
-			sourceTree = "<group>";
-		};
-		45AE77291E7D95EE00598B7F /* ResourceManager */ = {
-			isa = PBXGroup;
-			children = (
-				45AE772A1E7D95EE00598B7F /* APIService.h */,
-				45AE772B1E7D95EE00598B7F /* CacheResourceList.h */,
-				45AE772C1E7D95EE00598B7F /* CacheService.h */,
-				45AE772D1E7D95EE00598B7F /* Configuration.h */,
-				45AE772F1E7D95EE00598B7F /* NetworkManager.h */,
-				45AE77301E7D95EE00598B7F /* Receiver.h */,
-				45AE77311E7D95EE00598B7F /* ReceiverDictionary.h */,
-				45AE77321E7D95EE00598B7F /* Resource.h */,
-				45AE77331E7D95EE00598B7F /* ResourceManager.h */,
-			);
-			path = ResourceManager;
 			sourceTree = "<group>";
 		};
 		45AE773F1E7D9C6600598B7F /* ListModuleUITests */ = {

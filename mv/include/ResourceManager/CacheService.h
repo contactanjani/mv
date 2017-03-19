@@ -6,6 +6,9 @@
 //  Copyright © 2017 do. All rights reserved.
 //
 
+//Cache Service stores data in cache,
+//also, fetches resource from cache when demanded by Resource Manager
+
 #import <Foundation/Foundation.h>
 #import "CacheResourceList.h"
 #import "Resource.h"
