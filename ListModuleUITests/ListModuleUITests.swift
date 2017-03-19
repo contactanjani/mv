@@ -1,14 +1,14 @@
 //
-//  mvUITests.swift
-//  mvUITests
+//  ListModuleUITests.swift
+//  ListModuleUITests
 //
-//  Created by Anjani on 3/15/17.
+//  Created by Anjani on 3/18/17.
 //  Copyright © 2017 do. All rights reserved.
 //
 
 import XCTest
 
-class mvUITests: XCTestCase {
+class ListModuleUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()
@@ -33,4 +33,20 @@ class mvUITests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
     
+    func testHomePage() {
+        XCTAssert(XCUIApplication().navigationBars["My Pinboard"].staticTexts["My Pinboard"].exists == true)
+    }
+    
+    func testListItems() {
+        XCTAssert(XCUIApplication().tables.children(matching: .cell).element(boundBy: 0).exists == true)
+    }
+    
+    func testRemainingCellDiminish() {
+        XCUIApplication().tables.children(matching: .cell).element(boundBy: 0).press(forDuration: 4.3);
+    }
+    
+    func testPullToRefresh() {
+        XCUIApplication().tables.children(matching: .cell).element(boundBy: 0).swipeDown()
+        XCTAssert(XCUIApplication().tables.cells.count > 0)
+    }
 }
