@@ -11,6 +11,7 @@
 
 @interface ReceiverDictionary : NSObject
 
+    //nsmutabledictionary is 
     @property (atomic)NSMutableDictionary *dictionary;
     
     -(Boolean)addReceiverWith:(NSString*)urlString with:(id)completion andSender:(id)sender;

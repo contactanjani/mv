@@ -26,6 +26,7 @@
         @synchronized (self) {
             Receiver *receiver = [Receiver initWith:completion andSender:sender];
             
+            //using nsmutablearray is faster compared to nsmutableset, proven with unit tests
             NSMutableArray *receiverList = [dictionary objectForKey:urlString];
             if (receiverList && receiverList.count > 0) {
                 [receiverList addObject:receiver];

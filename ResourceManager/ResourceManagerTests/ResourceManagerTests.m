@@ -109,7 +109,7 @@
     [self waitForExpectationsWithTimeout:5.0 handler:nil];
 }
 
--(void)testResourceFetchCancelFromAPIInResourceManagerl {
+-(void)testSameResourceFetchCancelFromAPIInResourceManagerl {
     
     //sender1 requests for resource r1
     //then sender 2 requests for same resource r1

@@ -37,9 +37,10 @@
 		45AE76F91E7D911F00598B7F /* ListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45997BF71E7C2434005253CD /* ListViewCell.swift */; };
 		45AE76FA1E7D911F00598B7F /* ListVC+Table.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45997BFD1E7D0187005253CD /* ListVC+Table.swift */; };
 		45AE76FB1E7D911F00598B7F /* ListVC+Effects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45997C281E7D2A44005253CD /* ListVC+Effects.swift */; };
-		45AE77351E7D95EE00598B7F /* libResourceManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45AE77341E7D95EE00598B7F /* libResourceManager.a */; };
-		45AE77361E7D95EE00598B7F /* libResourceManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45AE77341E7D95EE00598B7F /* libResourceManager.a */; };
 		45AE77411E7D9C6600598B7F /* ListModuleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AE77401E7D9C6600598B7F /* ListModuleUITests.swift */; };
+		45C759731E7E6F22000871B5 /* libRMFinal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C759721E7E6F22000871B5 /* libRMFinal.a */; };
+		45C759741E7E6F22000871B5 /* libRMFinal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C759721E7E6F22000871B5 /* libRMFinal.a */; };
+		45C759751E7E6F22000871B5 /* libRMFinal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C759721E7E6F22000871B5 /* libRMFinal.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,10 +94,10 @@
 		45AE77311E7D95EE00598B7F /* ReceiverDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceiverDictionary.h; sourceTree = "<group>"; };
 		45AE77321E7D95EE00598B7F /* Resource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Resource.h; sourceTree = "<group>"; };
 		45AE77331E7D95EE00598B7F /* ResourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourceManager.h; sourceTree = "<group>"; };
-		45AE77341E7D95EE00598B7F /* libResourceManager.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libResourceManager.a; sourceTree = "<group>"; };
 		45AE773E1E7D9C6600598B7F /* ListModuleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ListModuleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45AE77401E7D9C6600598B7F /* ListModuleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModuleUITests.swift; sourceTree = "<group>"; };
 		45AE77421E7D9C6600598B7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45C759721E7E6F22000871B5 /* libRMFinal.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libRMFinal.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45AE77351E7D95EE00598B7F /* libResourceManager.a in Frameworks */,
+				45C759731E7E6F22000871B5 /* libRMFinal.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,7 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45AE77361E7D95EE00598B7F /* libResourceManager.a in Frameworks */,
+				45C759741E7E6F22000871B5 /* libRMFinal.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,6 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45C759751E7E6F22000871B5 /* libRMFinal.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,6 +180,7 @@
 				45997C0B1E7D0674005253CD /* Network Manager */,
 				45078B3B1E79B024004FD007 /* Extensions */,
 				45078B321E798E89004FD007 /* Resource */,
+				45C759721E7E6F22000871B5 /* libRMFinal.a */,
 			);
 			name = Common;
 			sourceTree = "<group>";
@@ -186,7 +189,6 @@
 			isa = PBXGroup;
 			children = (
 				45AE77281E7D95EE00598B7F /* include */,
-				45AE77341E7D95EE00598B7F /* libResourceManager.a */,
 			);
 			name = Resource;
 			sourceTree = "<group>";
@@ -717,6 +719,10 @@
 				DEVELOPMENT_TEAM = L453F72UDX;
 				INFOPLIST_FILE = ListModuleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/mv",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.ListModuleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -730,6 +736,10 @@
 				DEVELOPMENT_TEAM = L453F72UDX;
 				INFOPLIST_FILE = ListModuleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/mv",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.ListModuleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -765,6 +775,7 @@
 				45AE76E31E7D8CE300598B7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		45AE77451E7D9C6600598B7F /* Build configuration list for PBXNativeTarget "ListModuleUITests" */ = {
 			isa = XCConfigurationList;
@@ -773,6 +784,7 @@
 				45AE77471E7D9C6600598B7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
