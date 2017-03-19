@@ -10,6 +10,21 @@ mind valley
 2.Resource Manager takes care of cancelling a resource fetch if demanded by a sender.  
 3.Resource Manager ensures only 1 api call is made for multiple requests of same resource.  
 
+-Cache capacity  
+1.cache count can be changed in configuration.h file in the library.  
+2. LRU policy is maintainted. Whenever resource is fetched from cache, the resource is added to start of list.   
+Upon capacity breach, the elements at the end of the list are evicted.
+
+-Animation:  
+1.long press gesture for animation is done on cells. Long press a cell to hide other cells. Similar to pinterest pin board.  
+2.Pull to refresh makes same api call and appends new data at the top of list and refreshes tableview.  
+
+-Pagination:  
+1. Paginated API not available,hence pagination not implemented. But placeholders exists for this functionality.  
+
+-UI Tests and Unit tests  
+1.unit tests and UI tests implemented for both app and the library. Pressing command+U will execute these test cases.  
+
 -Resource Manager contains Receiverdictionary.  
 1.This dictionary contains the receivers to be notified when api call fetches data for a resource from API.  
 receiver dictionary is made an atomic resource as simultaneous read/write/delete operations take place and  
@@ -26,11 +41,6 @@ if present in cache, both senders are returned data from cache directly.
 the other sender is updated with data once api call returns with Data. If both of them cancel, resource is downloaded  
  and cached.  
 
--Cache capacity  
-1.cache count can be changed in configuration.h file in the library.  
-2. LRU policy is maintainted. Whenever resource is fetched from cache, the resource is added to start of list.   
-Upon capacity breach, the elements at the end of the list are evicted.  
-
 -Network Manager  
 1.data(contents url ) used for image download, because calling simple image download is light weight that way.   
 2.api call is made with nsurlsession however.  
@@ -43,13 +53,3 @@ the cellForRowAtIndexPath method size remains the same with increasing types of 
 Static library  
 1.made for both simulator and device. The folder for Library is ResourceManager within the main project folder:mv.  
 Resource Manager contains xcodeproj for building static library.  
-
--Animation:  
-1.long press gesture for animation is done on cells. Long press a cell to hide other cells. Similar to pinterest pin board.  
-2.Pull to refresh makes same api call and appends new data at the top of list and refreshes tableview.  
-
--Pagination:  
-1. Paginated API not available,hence pagination not implemented. But placeholders exists for this functionality.  
-
--UI Tests and Unit tests  
-1.unit tests and UI tests implemented for both app and the library. Pressing command+U will execute these test cases.  
