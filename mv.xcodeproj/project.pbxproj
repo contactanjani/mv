@@ -88,7 +88,6 @@
 		45AE772B1E7D95EE00598B7F /* CacheResourceList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheResourceList.h; sourceTree = "<group>"; };
 		45AE772C1E7D95EE00598B7F /* CacheService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheService.h; sourceTree = "<group>"; };
 		45AE772D1E7D95EE00598B7F /* Configuration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Configuration.h; sourceTree = "<group>"; };
-		45AE772E1E7D95EE00598B7F /* mvTests-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "mvTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		45AE772F1E7D95EE00598B7F /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
 		45AE77301E7D95EE00598B7F /* Receiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Receiver.h; sourceTree = "<group>"; };
 		45AE77311E7D95EE00598B7F /* ReceiverDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceiverDictionary.h; sourceTree = "<group>"; };
@@ -296,7 +295,6 @@
 				45AE772B1E7D95EE00598B7F /* CacheResourceList.h */,
 				45AE772C1E7D95EE00598B7F /* CacheService.h */,
 				45AE772D1E7D95EE00598B7F /* Configuration.h */,
-				45AE772E1E7D95EE00598B7F /* mvTests-Bridging-Header.h */,
 				45AE772F1E7D95EE00598B7F /* NetworkManager.h */,
 				45AE77301E7D95EE00598B7F /* Receiver.h */,
 				45AE77311E7D95EE00598B7F /* ReceiverDictionary.h */,
