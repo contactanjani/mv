@@ -20,6 +20,7 @@ Upon capacity breach, the elements at the end of the list are evicted.
 -Animation:  
 1.long press gesture for animation is done on cells. Long press a cell to hide other cells. Similar to pinterest pin board.  
 2.Pull to refresh makes same api call and appends new data at the top of list and refreshes tableview.  
+3.Autolayout is used for cells.
 
 -Pagination:  
 1.Paginated API not available,hence pagination not implemented. But placeholders exists for this functionality.  
@@ -39,7 +40,7 @@ Lot of operations happen simultaneously on these 2 variables - Receiver dictiona
 1.while 2 senders request for same resource (and the resource is not present in cache),  
 only 1 api call is made and both sender are updated with data.   
 if present in cache, both senders are returned data from cache directly.  
-2. while 2 senders request for same resource, and api call is made, then one sender cancels the request,  
+2.while 2 senders request for same resource, and api call is made, then one sender cancels the request,  
 the other sender is updated with data once api call returns with Data. If both of them cancel, resource is downloaded  
  and cached.  
 
