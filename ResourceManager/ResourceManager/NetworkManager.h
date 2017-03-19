@@ -6,6 +6,8 @@
 //  Copyright © 2017 do. All rights reserved.
 //
 
+//This class receivers request from APIService and makes network manager to download resource data and passes on the data to API service.
+
 #import <Foundation/Foundation.h>
 
 @interface NetworkManager : NSObject

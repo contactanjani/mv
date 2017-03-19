@@ -6,6 +6,9 @@
 //  Copyright © 2017 do. All rights reserved.
 //
 
+//Receiver contains sender, and the completion handler which is to be called once the downloaded data is available.
+//Resource Manager fetches list of receivers from Receiver-Dictionary, and calls completion on each of them for a given url.
+
 #import <Foundation/Foundation.h>
 
 @interface Receiver : NSObject

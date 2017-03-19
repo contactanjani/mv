@@ -6,6 +6,11 @@
 //  Copyright © 2017 do. All rights reserved.
 //
 
+//Resource Manager handles 3 major tasks:
+//1.Resource Manager fetches the resource from CacheService or APIService depending on situation.
+//2.Resource Manager takes care of cancelling a resource fetch if demanded by a sender.
+//3.Resource Manager ensures only 1 api call is made for multiple requests of same resource.
+
 #import <Foundation/Foundation.h>
 #import "Resource.h"
 #import "CacheService.h"

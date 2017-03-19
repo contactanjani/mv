@@ -6,6 +6,9 @@
 //  Copyright © 2017 do. All rights reserved.
 //
 
+//This model basically contains the url and data associated after data is obtained from NetworkManager.
+
+
 #import <Foundation/Foundation.h>
 
 @interface Resource : NSObject

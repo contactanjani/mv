@@ -6,6 +6,8 @@
 //  Copyright © 2017 do. All rights reserved.
 //
 
+//This class makes api call to NetworkManager to fetch data and converts it into a Resource Object and hands it over to Resource Manager
+
 #import <Foundation/Foundation.h>
 #import "ReceiverDictionary.h"
 #import "NetworkManager.h"

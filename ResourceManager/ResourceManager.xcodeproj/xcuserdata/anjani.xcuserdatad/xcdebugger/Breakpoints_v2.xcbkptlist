@@ -15,7 +15,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "129"
             endingLineNumber = "129"
-            landmarkName = "-testResourceFetchCancelFromAPIInResourceManagerl"
+            landmarkName = "-testSameResourceFetchCancelFromAPIInResourceManagerl"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -31,7 +31,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "137"
             endingLineNumber = "137"
-            landmarkName = "-testResourceFetchCancelFromAPIInResourceManagerl"
+            landmarkName = "-testSameResourceFetchCancelFromAPIInResourceManagerl"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

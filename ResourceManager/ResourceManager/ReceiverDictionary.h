@@ -6,6 +6,9 @@
 //  Copyright © 2017 do. All rights reserved.
 //
 
+//Receiver dictionary maintains the receivers for a resource url.
+//when api call finishes for a resource, receiver dictionary returns the receivers for that resource and Resource manager calls the completion of all the receivers for that url with downloaded data.
+
 #import <Foundation/Foundation.h>
 #import "Receiver.h"
 
