@@ -12,7 +12,7 @@ mind valley
 
 -Cache capacity  
 1.cache count can be changed in configuration.h file in the library.  
-2. LRU policy is maintainted. Whenever resource is fetched from cache, the resource is added to start of list.   
+2.LRU policy is maintainted. Whenever resource is fetched from cache, the resource is added to start of list.   
 Upon capacity breach, the elements at the end of the list are evicted.
 
 -Animation:  
@@ -20,7 +20,7 @@ Upon capacity breach, the elements at the end of the list are evicted.
 2.Pull to refresh makes same api call and appends new data at the top of list and refreshes tableview.  
 
 -Pagination:  
-1. Paginated API not available,hence pagination not implemented. But placeholders exists for this functionality.  
+1.Paginated API not available,hence pagination not implemented. But placeholders exists for this functionality.  
 
 -UI Tests and Unit tests  
 1.unit tests and UI tests implemented for both app and the library. Pressing command+U will execute these test cases.  
