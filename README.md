@@ -4,6 +4,7 @@ mind valley
 -architecture diagram is attahced as architecture.png  
 
 -minimum supported iOS version is 8.0. Built with Xcode8.1 Swift3. Static library built in Objective-C.  
+-resource download library is present in ResourceManager folder within the app project.
 
 -ListViewController - demands resource from Resource Manager.   
 1.Resource Manager fetches the resource from CacheService or APIService depending on situation.  
